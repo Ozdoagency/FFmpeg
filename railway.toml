@@ -1,0 +1,5 @@
+[build]
+buildpacks = [
+  "https://github.com/jonathanong/heroku-buildpack-ffmpeg-latest.git",
+  "heroku/nodejs" # или другой buildpack, если проект не на Node.js
+]
